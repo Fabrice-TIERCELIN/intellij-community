@@ -168,8 +168,8 @@ class GitBranchesTreePopupStep(private val project: Project, internal val reposi
     return when {
       isSelected && isFavorite -> AllIcons.Nodes.Favorite
       isSelected -> AllIcons.Nodes.NotFavoriteOnHover
-      isCurrent && isFavorite -> DvcsImplIcons.CurrentBranchFavoriteLabel
-      isCurrent -> DvcsImplIcons.CurrentBranchLabel
+      isCurrent && isFavorite -> DvcsImplIcons.CurrentBranchFavoriteLocation
+      isCurrent -> DvcsImplIcons.CurrentBranchLocation
       isFavorite -> AllIcons.Nodes.Favorite
       else -> AllIcons.Vcs.BranchNode
     }
