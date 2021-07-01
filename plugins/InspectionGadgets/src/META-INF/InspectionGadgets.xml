@@ -581,7 +581,7 @@
     <localInspection groupPath="Java" language="JAVA" shortName="ExpressionMayBeFactorized" bundle="messages.InspectionGadgetsBundle"
                      key="expression.may.be.factorized.display.name" groupBundle="messages.InspectionsBundle"
                      groupKey="group.names.control.flow.issues" enabledByDefault="false" level="INFORMATION"
-                     implementationClass="com.siyeh.ig.controlflow.ExpressionMayBeFactorizedInspection" cleanupTool="true"/>
+                     implementationClass="com.siyeh.ig.controlflow.ExpressionMayBeFactorizedInspection" cleanupTool="false"/>
     <localInspection groupPath="Java" language="JAVA" shortName="BreakStatement" bundle="messages.InspectionGadgetsBundle" key="break.statement.display.name"
                      groupBundle="messages.InspectionsBundle" groupKey="group.names.control.flow.issues" enabledByDefault="false"
                      level="WARNING" implementationClass="com.siyeh.ig.controlflow.BreakStatementInspection"/>
